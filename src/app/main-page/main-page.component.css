@@ -1,0 +1,66 @@
+/* ----------------------- top bar ---------------------- */
+.top-bar{
+  display: flex;
+  width: 100%;
+  height: 68px;
+  background: linear-gradient(75deg, rgb(214 ,180,247),rgb(173,203,231) );
+
+  /* horizontally and vertically center the text */
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar h1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgb(22,28,41);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* --------------------- total dubget section ----------------------- */
+.total-budget-section {
+  display: flex;
+  height: 250px;
+  background:  rgb(22,28,41);
+
+  /* horizontally and vertically center the text */
+  justify-content: center;
+  align-items: center;
+}
+
+.total-budget-section h2 {
+  font-weight: 300;
+  font-size: 58px;
+  color: white;
+}
+
+.total-budget-section .green{
+  color: #00cc86;
+}
+
+.total-budget-section .red{
+  color: #dc3900;
+}
+
+
+/* ------------------ Add Item Section-------------------------- */
+
+.add-item-section {
+   display: flex;
+  /* horizontally and vertically center the text */
+   justify-content: center;
+   align-items: center;
+}
+
+.add-item-section .add-item-contanier {
+  width: 680px;
+}
+
+
+
+
+
+
